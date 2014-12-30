@@ -5,6 +5,10 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # HomeBrew Cask http://caskroom.io/
 brew install caskroom/cask/brew-cask
 
+# Tap Alternative Versions of Casks
+# https://github.com/caskroom/homebrew-versions
+brew tap caskroom/versions
+
 # Alfred
 brew cask install alfred
 # To Link Alfred 2 with Caskroom without buying Power Pack
