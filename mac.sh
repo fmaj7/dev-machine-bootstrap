@@ -1,6 +1,23 @@
 # HomeBrew - http://brew.sh/
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew install git
+
+# Docker
+brew install docker
+brew install boot2docker
+boot2docker init
+
+# dotfiles
+## zprezto
+## zip -r --symlinks dotfiles.zip .ssh .zprezto .zlogin .zlogout .zpreztorc .zprofile .zshenv .zshrc* .zsh_history .zsh-update .gitconfig .history .android .adium_sync .tmux.conf .vim .vimrc .viminfo .zhistory
+
+# Apple XCode Commmandline Tools
+
+# JDK
+## 1.7
+## 1.8
+
 # HomeBrew Cask http://caskroom.io/
 brew install caskroom/cask/brew-cask
 
@@ -43,20 +60,5 @@ brew cask install sublime-text3
 
 # Virtual Box - Docker requirement 
 brew cask install virtualbox
-
-# Docker
-brew install docker
-brew install boot2docker
-boot2docker init
-
-# dotfiles
-## zprezto
-## zip -r --symlinks dotfiles.zip .ssh .zprezto .zlogin .zlogout .zpreztorc .zprofile .zshenv .zshrc* .zsh_history .zsh-update .gitconfig .history .android .adium_sync .tmux.conf .vim .vimrc .viminfo .zhistory
-
-# Apple XCode Commmandline Tools
-
-# JDK
-## 1.7
-## 1.8
 
 # Intelij
