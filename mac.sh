@@ -17,12 +17,8 @@ brew cask install alfred
 ## https://github.com/caskroom/homebrew-cask/issues/8052#issuecomment-68149673
 ## https://github.com/caskroom/homebrew-cask/issues/5820#issuecomment-61175615
 
-# Better Touch Tool
 brew cask install bettertouchtool
-
-# Spectacle
 brew cask install spectacle
-
 brew cask install dropbox
 
 # Google Chrome
@@ -40,7 +36,7 @@ brew cask install iterm2
 ## Profiles
 ## Preferences
 
-# Sublime Text
+# Syncing https://packagecontrol.io/docs/syncing#dropbox-osx
 brew cask install sublime-text3
 ## MarkdownEditing
 ## Change key binding super+f => show pannel replace
