@@ -23,10 +23,11 @@ brew cask install bettertouchtool
 # Spectacle
 brew cask install spectacle
 
+brew cask install dropbox
+
 # Google Chrome
+# Preferences come form google account sync
 brew cask install google-chrome
-## preference comes from syncing
-## ~/Library/Application Support/Google/Chrome/(Default|Profile 1)
 
 # Firefox
 brew cask install firefox
