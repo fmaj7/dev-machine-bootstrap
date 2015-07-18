@@ -44,12 +44,10 @@ brew cask install sublime-text3
 ## MarkdownEditing
 ## Change key binding super+f => show pannel replace
 
-# Virtual Box - Docker requirement 
-brew cask install virtualbox
-
 # Intelij
 
 # Docker
+brew cask install virtualbox
 brew install docker
 brew install boot2docker
 boot2docker init
