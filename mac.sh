@@ -1,7 +1,8 @@
 # HomeBrew - http://brew.sh/
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install git
+# Already come in with OS
+# brew install git
 
 # Docker
 brew install docker
