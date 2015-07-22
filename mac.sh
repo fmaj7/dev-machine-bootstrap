@@ -11,6 +11,15 @@ brew install caskroom/cask/brew-cask
 ## https://github.com/caskroom/homebrew-versions
 brew tap caskroom/versions
 
+brew cask install dropbox
+brew cask install evernote
+
+# Preferences come form google account sync
+brew cask install google-chrome
+
+brew cask install firefox
+## preferences?
+
 # Alfred
 brew cask install alfred
 ## To Link Alfred 2 with Caskroom without buying Power Pack
@@ -19,16 +28,6 @@ brew cask install alfred
 
 brew cask install bettertouchtool
 brew cask install spectacle
-brew cask install dropbox
-brew cask install evernote
-
-# Google Chrome
-# Preferences come form google account sync
-brew cask install google-chrome
-
-# Firefox
-brew cask install firefox
-## preferences?
 
 # iTerm 2
 brew cask install iterm2
