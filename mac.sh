@@ -17,6 +17,13 @@ open -a spectacle
 brew cask install bettertouchtool
 open -a bettertouchtool
 
+brew cask install istat-menus
+open -a istat\ menus
+
+# TODO: add display menu cask
+# brew cask install display-menu
+# open -a display\ menu
+
 brew cask install dropbox
 open -a dropbox
 
