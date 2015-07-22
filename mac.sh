@@ -36,19 +36,22 @@ brew cask install alfred
 ## https://github.com/caskroom/homebrew-cask/issues/8052#issuecomment-68149673
 ## https://github.com/caskroom/homebrew-cask/issues/5820#issuecomment-61175615
 
-# iTerm 2
+brew install fish
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
+
 brew cask install iterm2
 ## How about preferences?
 ## Add/Change font: Consolas
 ## Profiles
 ## Preferences
 
+brew cask install atom
 # Syncing https://packagecontrol.io/docs/syncing#dropbox-osx
 brew cask install sublime-text3
 ## MarkdownEditing
 ## Change key binding super+f => show pannel replace
 
-# JDK
 brew cask install java6 java7 java
 
 # Docker
