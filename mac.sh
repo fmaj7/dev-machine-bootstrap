@@ -30,12 +30,6 @@ open -a google\ chrome
 brew cask install firefox
 ## preferences?
 
-# Alfred
-brew cask install alfred
-## To Link Alfred 2 with Caskroom without buying Power Pack
-## https://github.com/caskroom/homebrew-cask/issues/8052#issuecomment-68149673
-## https://github.com/caskroom/homebrew-cask/issues/5820#issuecomment-61175615
-
 brew install fish
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
@@ -67,6 +61,14 @@ boot2docker init
 brew cask install intellij-idea
 open -a intellij\ idea\ 14
 
+# Alfred
+## brew cask install alfred
+## To Link Alfred 2 with Caskroom without buying Power Pack
+## https://github.com/caskroom/homebrew-cask/issues/8052#issuecomment-68149673
+## https://github.com/caskroom/homebrew-cask/issues/5820#issuecomment-61175615
+
 # dotfiles
+## brew install zsh
+## chsh -s /bin/zsh
 ## zprezto
 ## zip -r --symlinks dotfiles.zip .ssh .zprezto .zlogin .zlogout .zpreztorc .zprofile .zshenv .zshrc* .zsh_history .zsh-update .gitconfig .history .android .adium_sync .tmux.conf .vim .vimrc .viminfo .zhistory
