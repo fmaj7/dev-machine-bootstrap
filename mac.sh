@@ -21,6 +21,7 @@ brew cask install istat-menus
 open -a istat\ menus
 
 # TODO: add display menu cask
+# !!! Not as sharp as native/built-in resolutions
 # brew cask install display-menu
 # open -a display\ menu
 
