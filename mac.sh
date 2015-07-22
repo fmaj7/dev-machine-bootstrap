@@ -47,8 +47,11 @@ brew cask install iterm2
 ## Preferences
 
 brew cask install atom
+ln -s ~/Dropbox/sync/atom ~/.atom
+
+# Temporarily disable sublime text unless found better than atom
 # Syncing https://packagecontrol.io/docs/syncing#dropbox-osx
-brew cask install sublime-text3
+# brew cask install sublime-text3
 ## MarkdownEditing
 ## Change key binding super+f => show pannel replace
 
