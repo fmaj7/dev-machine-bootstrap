@@ -20,6 +20,7 @@ brew cask install alfred
 brew cask install bettertouchtool
 brew cask install spectacle
 brew cask install dropbox
+brew cask install evernote
 
 # Google Chrome
 # Preferences come form google account sync
