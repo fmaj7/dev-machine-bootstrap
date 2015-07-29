@@ -28,6 +28,9 @@ open -a istat\ menus
 brew cask install dropbox
 open -a dropbox
 
+brew cask install google-drive
+open -a google\ drive
+
 brew cask install evernote
 open -a evernote
 
