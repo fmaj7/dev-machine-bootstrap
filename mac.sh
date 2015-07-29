@@ -31,9 +31,6 @@ open -a dropbox
 brew cask install google-drive
 open -a google\ drive
 
-brew cask install evernote
-open -a evernote
-
 # Preferences come form google account sync
 brew cask install google-chrome
 open -a google\ chrome
@@ -50,6 +47,11 @@ chsh -s /usr/local/bin/fish
 ## chsh -s /bin/zsh
 ## zprezto
 ## zip -r --symlinks dotfiles.zip .ssh .zprezto .zlogin .zlogout .zpreztorc .zprofile .zshenv .zshrc* .zsh_history .zsh-update .gitconfig .history .android .adium_sync .tmux.conf .vim .vimrc .viminfo .zhistory
+
+brew cask install evernote
+open -a evernote
+
+## Install Wechat
 
 brew cask install iterm2
 ## How about preferences?
