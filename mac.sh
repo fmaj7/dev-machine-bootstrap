@@ -52,6 +52,7 @@ brew cask install evernote
 open -a evernote
 
 ## Install Wechat
+## Install iQiyi
 
 brew cask install iterm2
 ## How about preferences?
