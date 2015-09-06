@@ -86,3 +86,6 @@ open -a intellij\ idea\ 14
 ## To Link Alfred 2 with Caskroom without buying Power Pack
 ## https://github.com/caskroom/homebrew-cask/issues/8052#issuecomment-68149673
 ## https://github.com/caskroom/homebrew-cask/issues/5820#issuecomment-61175615
+
+# Nodejs
+brew install node
