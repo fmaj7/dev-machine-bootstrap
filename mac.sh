@@ -90,4 +90,4 @@ open -a intellij\ idea\ 14
 # Nodejs
 brew install node
 
-brew install coreutils
+brew install coreutils ag
