@@ -18,6 +18,8 @@ brew install direnv
 ## Should be set in ZSH/pretzo setup step below
 # echo 'eval "$(direnv hook zsh)"'
 
+brew install pyenv pyenv-virtualenv
+
 ## ZSH
 # brew install zsh
 # chsh -s /bin/zsh
